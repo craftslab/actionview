@@ -4,7 +4,6 @@ import store from '@/store'
 const service = axios.create({
   baseURL: process.env.VUE_APP_BASE_API,
   timeout: 50000,
-  headers: { 'Access-Control-Allow-Origin': '*' }
 })
 
 const err = (error) => {
@@ -48,7 +47,6 @@ const err = (error) => {
 }
 
 service.interceptors.request.use((config) => {
-  config.headers['Access-Control-Allow-Origin'] = '*'
   config.headers['Content-Type'] = 'application/json'
   config.headers['Authorization'] = 'Bearer ' + store.getters.getAccessToken
 

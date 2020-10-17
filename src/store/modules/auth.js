@@ -21,6 +21,7 @@ const actions = {
     return request({
       url: '/auth/login',
       method: 'post',
+      crossdomain: true,
       data: {
         username,
         password
@@ -37,7 +38,8 @@ const actions = {
   fetchProfile({ commit }) {
     return request({
       url: '/accounts/self',
-      method: 'get'
+      method: 'get',
+      crossdomain: true
     }).then((resp) => {
       commit('SET_LOGIN_PROFILE', resp)
     })
