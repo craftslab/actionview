@@ -38,16 +38,16 @@ const actions = {
     return request({
       url: '/accounts/self',
       method: 'get'
-    }).then(({ data }) => {
-      commit('SET_LOGIN_PROFILE', data)
+    }).then((resp) => {
+      commit('SET_LOGIN_PROFILE', resp)
     })
   }
 }
 
 const mutations = {
-  SET_LOGIN(state, { expire, token }) {
-    state.access_token = token
-    state.expires_in = expire
+  SET_LOGIN(state, payload) {
+    state.access_token = payload.token
+    state.expires_in = payload.expire
   },
   SET_ACCESS_TOKEN(state, token) {
     state.access_token = token
