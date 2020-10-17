@@ -21,7 +21,6 @@ const actions = {
     return request({
       url: '/auth/login',
       method: 'post',
-      crossdomain: true,
       data: {
         username,
         password
@@ -46,7 +45,7 @@ const actions = {
 }
 
 const mutations = {
-  SET_LOGIN(state, { code, expire, token }) {
+  SET_LOGIN(state, { expire, token }) {
     state.access_token = token
     state.expires_in = expire
   },
@@ -54,8 +53,8 @@ const mutations = {
     state.access_token = token
   },
   SET_LOGIN_PROFILE(state, payload) {
-    state.username = payload.username
     state.avatar = payload.avatar
+    state.username = payload.username
   }
 }
 

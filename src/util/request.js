@@ -56,7 +56,7 @@ service.interceptors.request.use((config) => {
 }, err)
 
 service.interceptors.response.use(({ data, config }) => {
-  if (['put', 'post', 'delete', 'patch'].includes(config.method) && data.meta) {
+  if (['delete', 'get', 'patch', 'post', 'put'].includes(config.method) && data.meta) {
     window._VMA.$emit('SHOW_SNACKBAR', {
       text: data.meta.message,
       color: 'success'
