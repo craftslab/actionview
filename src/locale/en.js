@@ -7,11 +7,15 @@ export default {
   password: 'Password',
   login_account: 'Login accoount',
   menu: {
-    home: 'Home',
+    artifacts: 'Artifacts',
+    code: 'Code',
     dashboard: 'Dashboard',
+    home: 'Home',
+    pipeline: 'Pipeline',
+    testing: 'Testing'
   },
   rule: {
     required: '{0} is required'
   },
-...en
+  ...en
 }

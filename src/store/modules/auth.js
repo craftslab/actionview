@@ -46,9 +46,9 @@ const actions = {
 }
 
 const mutations = {
-  SET_LOGIN(state, { access_token, expires_in }) {
-    state.access_token = access_token
-    state.expires_in = expires_in
+  SET_LOGIN(state, { code, expire, token }) {
+    state.access_token = token
+    state.expires_in = expire
   },
   SET_ACCESS_TOKEN(state, token) {
     state.access_token = token

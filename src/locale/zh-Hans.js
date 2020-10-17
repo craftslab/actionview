@@ -7,11 +7,15 @@ export default {
   password: '密码',
   login_account: '登录账户',
   menu: {
-    home: '首页',
+    artifacts: '制品',
+    code: '代码',
     dashboard: '仪表盘',
+    home: '首页',
+    pipeline: '流水线',
+    testing: '测试'
   },
   rule: {
     required: '请输入{0}'
   },
-...zhHans
+  ...zhHans
 }

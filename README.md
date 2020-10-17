@@ -34,3 +34,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 docker build --no-cache -f Dockerfile -t $NAME:$TAG .
 docker run -d -p 9091:80 $NAME:$TAG
 ```
+
+### Material Design
+See [Material Icon](https://material.io/resources/icons/?icon=call_merge&style=baseline)
