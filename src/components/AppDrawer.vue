@@ -137,7 +137,7 @@ export default {
   data() {
     return {
       mini: false,
-      drawerWidth: 256,
+      drawerWidth: 192,
       drawer: true,
       scrollSettings: {
         maxScrollbarLength: 160
@@ -157,7 +157,7 @@ export default {
 
   methods: {
     handleDrawerCollapse() {
-      this.drawerWidth = this.drawerWidth === 256 ? 64 : 256
+      this.drawerWidth = this.drawerWidth === 192 ? 64 : 192
     },
     toggleDrawer() {
       this.drawer = !this.drawer
