@@ -3,7 +3,7 @@ import store from '@/store'
 
 const service = axios.create({
   baseURL: process.env.VUE_APP_BASE_API,
-  timeout: 50000,
+  timeout: 50000
 })
 
 const err = (error) => {
@@ -42,14 +42,12 @@ const err = (error) => {
     default:
       break
   }
-
   return Promise.reject(error)
 }
 
 service.interceptors.request.use((config) => {
   config.headers['Content-Type'] = 'application/json'
   config.headers['Authorization'] = 'Bearer ' + store.getters.getAccessToken
-
   return config
 }, err)
 
@@ -63,7 +61,6 @@ service.interceptors.response.use(({ data, config }) => {
   if (data.error !== undefined) {
     window._VMA.$emit('API_FAILED', data.error)
   }
-
   return data
 }, err)
 

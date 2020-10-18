@@ -6,34 +6,60 @@
 
 
 
-## Project setup
-```
-npm install
-```
+## Introduction
 
-### Compiles and hot-reloads for development
-```
+*Action View* is a pipeline action view written in JavaScript.
+
+See *[Action FLow](https://github.com/craftslab/actionflow/)* as a server of *Action View*.
+
+
+
+## Requirement
+
+- Node.js >= 12.19.0
+- Vue.js >= 2.6.12
+
+
+
+## Running
+
+```bash
+git clone https://github.com/craftslab/actionview.git
+
+cd actionview
+npm install
+npm run lint
+npm run build
+
 npm run serve
 ```
 
-### Compiles and minifies for production
+
+
+### Docker
+
 ```
-npm run build
+git clone https://github.com/craftslab/actionview.git
+
+cd actionview
+docker build --no-cache -f Dockerfile -t craftslab/actionview:latest .
+docker run -d -p 9091:80 craftslab/actionview:latest
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Build Docker
-```
-docker build --no-cache -f Dockerfile -t $NAME:$TAG .
-docker run -d -p 9091:80 $NAME:$TAG
-```
+## Design
 
-### Material Design
-See [Material Icon](https://material.io/resources/icons/?icon=call_merge&style=baseline)
+![design](design.svg)
+
+
+
+## Reference
+
+- [Material Icon](https://material.io/resources/icons/?icon=call_merge&style=baseline)
+
+
+
+## License
+
+Project License can be found [here](LICENSE).
