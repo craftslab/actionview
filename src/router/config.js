@@ -99,14 +99,14 @@ export const protectedRoute = [
         component: () => import('@/views/testing/Testing')
       },
       {
-        path: '/artifacts',
-        name: 'artifacts',
+        path: '/artifact',
+        name: 'artifact',
         meta: {
-          title: 'artifacts',
+          title: 'artifact',
           group: 'apps',
           icon: 'mdi-alpha-a-box'
         },
-        component: () => import('@/views/artifacts/Artifacts')
+        component: () => import('@/views/artifact/Artifact')
       }
     ]
   }

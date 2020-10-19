@@ -7,7 +7,7 @@ export default {
   password: '密码',
   login_account: '登录账户',
   menu: {
-    artifacts: '制品',
+    artifact: '制品',
     code: '代码',
     dashboard: '仪表盘',
     home: '首页',

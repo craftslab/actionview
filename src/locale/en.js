@@ -7,7 +7,7 @@ export default {
   password: 'Password',
   login_account: 'Login accoount',
   menu: {
-    artifacts: 'Artifacts',
+    artifact: 'Artifact',
     code: 'Code',
     dashboard: 'Dashboard',
     home: 'Home',
