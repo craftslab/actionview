@@ -9,7 +9,7 @@
   >
     <v-toolbar color="primary darken-1" dark>
       <v-toolbar-title class="ml-0 pl-3">
-        <span class="hidden-sm-and-down">ActionView</span>
+        <span class="hidden-sm-and-down">ActionFlow</span>
       </v-toolbar-title>
     </v-toolbar>
     <v-list class="pa-0">

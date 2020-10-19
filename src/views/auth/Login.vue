@@ -5,7 +5,7 @@
         <v-card class="pa-3 page-login__card" tile>
           <v-card-title>
             <h1 class="primary--text display-1 page-login_title">
-              ActionView
+              ActionFlow
             </h1>
           </v-card-title>
           <v-card-text>
