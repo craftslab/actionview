@@ -66,7 +66,7 @@ export const protectedRoute = [
           group: 'apps',
           icon: 'mdi-alpha-d-box'
         },
-        component: () => import('@/views/Dashboard')
+        component: () => import('@/views/dashboard/Dashboard')
       },
       {
         path: '/code',
@@ -76,7 +76,7 @@ export const protectedRoute = [
           group: 'apps',
           icon: 'mdi-alpha-c-box'
         },
-        component: () => import('@/views/Code')
+        component: () => import('@/views/code/Code')
       },
       {
         path: '/pipeline',
@@ -86,7 +86,7 @@ export const protectedRoute = [
           group: 'apps',
           icon: 'mdi-alpha-p-box'
         },
-        component: () => import('@/views/Pipeline')
+        component: () => import('@/views/pipeline/Pipeline')
       },
       {
         path: '/testing',
@@ -96,7 +96,7 @@ export const protectedRoute = [
           group: 'apps',
           icon: 'mdi-alpha-t-box'
         },
-        component: () => import('@/views/Testing')
+        component: () => import('@/views/testing/Testing')
       },
       {
         path: '/artifacts',
@@ -106,7 +106,7 @@ export const protectedRoute = [
           group: 'apps',
           icon: 'mdi-alpha-a-box'
         },
-        component: () => import('@/views/Artifacts')
+        component: () => import('@/views/artifacts/Artifacts')
       }
     ]
   }
