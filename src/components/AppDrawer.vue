@@ -144,7 +144,6 @@ export default {
       },
     }
   },
-
   computed: {
     computeLogo() {
       return '/static/m.png'
@@ -153,8 +152,6 @@ export default {
       return routes[0].children
     }
   },
-  created() {},
-
   methods: {
     handleDrawerCollapse() {
       this.drawerWidth = this.drawerWidth === 192 ? 64 : 192
@@ -169,7 +166,6 @@ export default {
 <style lang="sass" scoped>
 .app--drawer
   overflow: hidden !important
-
   .drawer-menu--scroll
     height: calc(100vh - 48px)
     overflow: auto
