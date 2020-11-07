@@ -68,7 +68,7 @@
 
 <script>
 export default {
-  name: 'PageLogin',
+  name: 'Login',
   data() {
     return {
       loading: false,

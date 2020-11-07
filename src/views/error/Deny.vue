@@ -17,6 +17,7 @@
 
 <script>
 export default {
+  name: 'Deny',
   methods: {
     goHome() {
       this.$router.push({ path: '/' })

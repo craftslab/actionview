@@ -8,9 +8,7 @@
 
 <script>
 export default {
-  data: () => ({}),
-
-  methods: {},
+  name: 'LayoutAuth'
 }
 </script>
 
