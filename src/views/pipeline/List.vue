@@ -1,18 +1,13 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col cols="12">
-        <plain-table />
-      </v-col>
-    </v-row>
-  </v-container>
+  <table-pipeline />
 </template>
 
 <script>
-import PlainTable from '@/components/list/PlainTable'
+import TablePipeline from '@/components/table/TablePipeline'
 export default {
+  name: 'List',
   components: {
-    PlainTable
+    TablePipeline
   },
   data() {
     return {}

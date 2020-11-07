@@ -1,9 +1,5 @@
 <template>
-  <div class="page-pipeline">
-    <v-container>
-      <list />
-    </v-container>
-  </div>
+  <list />
 </template>
 
 <script>
