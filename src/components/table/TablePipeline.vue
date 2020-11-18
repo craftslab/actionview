@@ -155,7 +155,7 @@ export default {
         { text: 'Stage', align: 'center', sortable: false, value: 'stage' },
         { text: 'Owner', align: 'center', sortable: true, value: 'owner' },
         { text: 'Time', align: 'center', sortable: true, value: 'time' },
-        { text: 'Actions', align: 'center', value: 'actions', sortable: false }
+        { text: 'Actions', align: 'center', sortable: false, value: 'actions' }
       ],
       index: -1,
       pipelines: [],
