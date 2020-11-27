@@ -8,9 +8,9 @@
 
 ## Introduction
 
-*Action View* is a pipeline action view written in JavaScript.
+*actionview* is a pipeline action view written in JavaScript.
 
-See *[Action FLow](https://github.com/craftslab/actionflow/)* as a server of *Action View*.
+See *[actionfLow](https://github.com/craftslab/actionflow/)* as a server of *actionview*.
 
 
 
