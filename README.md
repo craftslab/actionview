@@ -21,7 +21,7 @@ See *[actionfLow](https://github.com/craftslab/actionflow/)* as a server of *act
 
 
 
-## Running
+## Run
 
 ```bash
 git clone https://github.com/craftslab/actionview.git
@@ -54,12 +54,12 @@ docker run -d -p 9091:80 craftslab/actionview:latest
 
 
 
-## Reference
-
-- [Material Icon](https://material.io/resources/icons/?icon=call_merge&style=baseline)
-
-
-
 ## License
 
 Project License can be found [here](LICENSE).
+
+
+
+## Reference
+
+- [Material Icon](https://material.io/resources/icons/?icon=call_merge&style=baseline)
